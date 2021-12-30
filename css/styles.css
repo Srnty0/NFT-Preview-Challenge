@@ -1,0 +1,110 @@
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    margin-right: 25px;
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    width: 90%;
+    border: solid;
+    border-bottom: none;
+    border-width: 2px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 156.25%;
+    margin-left: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main_card {
+    width: 350px;
+    height: 560px;
+    align-content:center ;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.currency_icon {
+    margin-left: 25px;
+}
+
+.crypto_currency {
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: -22px;
+    font-size: 18px;
+}
+
+.clock {
+    padding-left: 90px;
+    position: relative;
+    top: 2px;
+}
+
+.time_left {
+    display: inline;
+    margin: 0 0 0 0;
+}
+
+.nft_pic {
+    position: relative;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.crypto_currency {
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.usr_name {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.usr_pfp {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-left: 19px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: hsl(0, 0%, 100%);
+}
+
+.creator_tag {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    display: inline-block;
+    
+}
